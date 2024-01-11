@@ -1,0 +1,46 @@
+.myprofile {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+  > main {
+    max-width: 900px;
+    height: 100%;
+    margin: auto;
+    background-color: whitesmoke;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    > img {
+      border-radius: 100%;
+      width: 50%;
+      margin: auto;
+    }
+    > div {
+      margin: 2rem;
+      > a {
+        background-color: #cf055c;
+        color: white;
+        padding: 1rem 1.5rem;
+        border-radius: 8px;
+        font-size: 1.2rem;
+        &:hover {
+          background-color: #800c04;
+        }
+      }
+    }
+    > button {
+      border: none;
+      outline: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      cursor: pointer;
+      background-color: #e4e3e4;
+      font-weight: 500;
+      font-size: 1rem;
+      &:hover {
+        background-color: rgba(245, 245, 245, 0.864);
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+.explore-menu {
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  margin-bottom: 1rem;
+  > div > h1 {
+    text-align: center;
+    margin: 2rem;
+    color: azure;
+    background-color: rgb(143, 28, 28);
+    width: fit-content;
+    margin: auto;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    border-radius: 20px;
+  }
+  > div > .menuCard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    border-radius: 4px;
+    width: 20rem;
+    justify-items: center;
+    width: 100%;
+    margin-top: 2rem;
+    > .menu-item {
+      box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+      position: relative;
+    }
+    > div > img {
+      border-radius: 4px 4px 0 0;
+      width: 20rem;
+      height: 21rem;
+    }
+    > div > div {
+      background-color: rgb(248, 247, 246);
+      margin: 1rem;
+      color: #616161;
+      > button {
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+        padding: 5px 10px;
+        background-color: rgb(5, 146, 19);
+        color: azure;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.2s;
+        &:hover {
+          background-color: rgb(3, 77, 3);
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .explore-menu {
+    > div > .menuCard {
+      display: grid;
+      grid-template-columns: 1fr;
+      //   margin: 1rem;
+      justify-items: center;
+    }
+  }
+}
+@media (max-width: 800px) and (min-width: 600px) {
+  .explore-menu {
+    > div > .menuCard {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      //   margin: 1rem;
+      justify-items: center;
+    }
+  }
+}

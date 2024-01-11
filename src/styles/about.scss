@@ -1,0 +1,32 @@
+.about-box {
+  height: 100vh;
+  background-image: url(../assets/aboutimg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  // filter: grayscale(40%);
+  // background-size: contain;
+  > .bg-box {
+    > h1 {
+      text-align: center;
+      color: white;
+      font-family: "Pacifico", cursive;
+      text-transform: uppercase;
+      padding-top: 5rem;
+      border-bottom: 5px solid yellow;
+      width: 50%;
+      margin: auto;
+    }
+  }
+
+  > div > p {
+    color: #000;
+    letter-spacing: 2px;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    padding: 1rem;
+    margin-top: 2rem;
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+}

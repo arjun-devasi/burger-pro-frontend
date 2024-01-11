@@ -1,0 +1,36 @@
+.PaySuccess {
+  background-image: linear-gradient(
+    -20deg,
+    #ddd6f3 0%,
+    #faaca8 100%,
+    #faaca8 100%
+  );
+  height: 70vh;
+  width: 100%;
+  > main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    // justify-content: center;
+    > div {
+      margin-top: 10rem;
+      background-color: white;
+      padding: 3rem;
+      border-radius: 10px;
+      > h1 {
+        color: rgb(6, 237, 6);
+      }
+    }
+    > a {
+      padding: 1rem 2rem;
+      border: none;
+      background-color: rgb(176, 14, 14);
+      color: white;
+      border-radius: 5px;
+      margin-top: 2rem;
+      font-size: 1rem;
+    }
+  }
+}

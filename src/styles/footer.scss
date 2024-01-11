@@ -1,0 +1,45 @@
+footer {
+  height: 10rem;
+  background-color: rgb(211, 210, 210);
+  color: white;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-items: center;
+  align-items: center;
+  // margin-top: 5rem;
+
+  > div {
+    > a {
+      // text-decoration: none;
+      padding-right: 0.2rem;
+      font-size: 2rem;
+      color: #32cd32;
+    }
+    > h2 {
+      font-size: 3rem;
+      color: #7c0a02;
+      font-family: "Pacifico", cursive;
+      z-index: 10;
+    }
+    > p {
+      color: #32cd32;
+    }
+    > h3 {
+      color: #7c0a02;
+      font-size: 2rem;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+  }
+}
+.footer-box {
+  color: rgb(206, 14, 14);
+  height: 50px;
+  background-color: #fa5b3d;
+}
+@media screen and (max-width: 600px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

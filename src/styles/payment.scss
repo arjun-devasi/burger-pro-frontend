@@ -1,0 +1,44 @@
+.ConfirmOrder {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  > main {
+    max-width: 900px;
+    height: 100%;
+    background-color: whitesmoke;
+    padding: 5rem;
+    margin: auto;
+    > h1 {
+      text-transform: uppercase;
+      font-weight: 400;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    > form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      > div {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(233, 233, 233);
+        padding: 1rem;
+        margin: 1rem;
+      }
+      > button {
+        background-color: #b11005;
+        cursor: pointer;
+        border: none;
+        padding: 1rem 2rem;
+        color: white;
+        box-sizing: 5px;
+        font-size: 1rem;
+        border-radius: 5px;
+        &:hover {
+          background-color: #660a04;
+        }
+      }
+    }
+  }
+}

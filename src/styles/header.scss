@@ -1,0 +1,41 @@
+nav {
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.229);
+  > div {
+    display: flex;
+    align-items: center;
+    > svg {
+      color: rgb(137, 39, 39);
+      font-size: 3rem;
+      transition: inherit;
+      cursor: pointer;
+      &:hover {
+        color: rgb(240, 128, 128);
+      }
+    }
+    > a {
+      margin: 0 2rem;
+      color: rgb(131, 126, 126);
+      transition: color 0.3s;
+      &:hover {
+        color: rgb(33, 22, 22);
+      }
+      > svg {
+        color: rgb(137, 39, 39);
+        font-size: 1.1rem;
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  nav {
+    padding: 1rem;
+    > div > a {
+      margin: 0 0.5rem;
+    }
+  }
+}
